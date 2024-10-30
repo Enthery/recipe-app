@@ -10,7 +10,7 @@ export default function RecipeItem({ item }) {
         <span className="text-sm text-cyan-700 font-medium">
           {item?.publisher}
         </span>
-        <h3 className="text-2xl truncate text-black font-bold ">
+        <h3 className="font-bold text-2xl truncate text-black ">
           {item?.title}
         </h3>
         <Link
